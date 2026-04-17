@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MAHI COMPUTER TYPING TEST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>WELL-COME TO MAHI COMPUTER TYPING TEST</h1>
+
+<div class="container">
+
+    <select id="level">
+        <option value="basic">Basic</option>
+        <option value="medium">Medium</option>
+        <option value="advanced">Advanced</option>
+    </select>
+
+    <p id="text"></p>
+
+    <textarea id="input" placeholder="Start typing here..."></textarea>
+
+    <div class="result">
+        <p>Time: <span id="time">0</span>s</p>
+        <p>Speed: <span id="speed">0</span> WPM</p>
+        <p>Accuracy: <span id="accuracy">100</span>%</p>
+    </div>
+
+    <button onclick="startTest()">Start Test</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+typing-test/
+│── index.html
+│── style.css
+│── script.js
